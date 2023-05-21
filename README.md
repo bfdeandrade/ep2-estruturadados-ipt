@@ -25,6 +25,7 @@ maze = Maze("maze.dat")
 ## Exemplo de input/output
 Para o input apresentado no EP2 e presente no arquivo padrão **maze.dat**, a respectiva e entrada são as a seguir
 **Input**:
+```python
 1111111111
 1000000001
 1200010101
@@ -37,7 +38,7 @@ Para o input apresentado no EP2 e presente no arquivo padrão **maze.dat**, a re
 1101001111
 1000000001
 1111111311
-
+```
 **Output**
 ```python
 Total cost: 24 
