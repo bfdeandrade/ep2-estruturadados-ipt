@@ -112,8 +112,7 @@ if shortest_path:
     for cell in shortest_path:
         row, col = cell
         maze[row][col] = "+"
-
+print("Total cost: " + str(total_distance))
 print("Shortest path:")
-print(total_distance)
 for row in maze:
     print(" ".join([symbol_map[cell] for cell in row]))

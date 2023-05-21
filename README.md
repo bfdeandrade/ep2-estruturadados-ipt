@@ -22,7 +22,37 @@ No entanto, é preciso realizar a modificação do nome do arquivo em caso que e
 ```python
 maze = Maze("maze.dat")
 ```
+## Exemplo de input/output
+Para o input apresentado no EP2 e presente no arquivo padrão **maze.dat**, a respectiva e entrada são as a seguir
+**Input**:
+1111111111
+1000000001
+1200010101
+1111010101
+1000000101
+1011111101
+1000000001
+1111111101
+1100100001
+1101001111
+1000000001
+1111111311
 
+**Output**
+Total cost: 24
+Shortest path:
+# # # # # # # # # #
+# + + + + + + + + #
+# +       #   # + #
+# # # #   #   # + #
+#             # + #
+#   # # # # # # + #
+#               + #
+# # # # # # # # + #
+# #     # + + + + #
+# #   #   + # # # #
+#         + + +   #
+# # # # # # # + # #
 ## Disclamer
 
 Esse repo se refere ao trabalho da disciplina de estrutura de dados e foi elaborado utilizando referências da internet apresentadas a seguir:
