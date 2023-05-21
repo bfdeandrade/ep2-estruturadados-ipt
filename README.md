@@ -39,7 +39,9 @@ Para o input apresentado no EP2 e presente no arquivo padrão **maze.dat**, a re
 1111111311
 
 **Output**
-Total cost: 24
+```python
+Total cost: 24 
+
 Shortest path:
 # # # # # # # # # #
 # + + + + + + + + #
@@ -53,6 +55,7 @@ Shortest path:
 # #   #   + # # # #
 #         + + +   #
 # # # # # # # + # #
+```
 ## Disclamer
 
 Esse repo se refere ao trabalho da disciplina de estrutura de dados e foi elaborado utilizando referências da internet apresentadas a seguir:
